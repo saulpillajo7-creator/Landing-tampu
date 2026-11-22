@@ -3,493 +3,470 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tampu Ilaló Glamping · Domos con jacuzzi privado en Quito</title>
-<meta name="description" content="Glamping con jacuzzi privado y desayuno incluido en el Valle de los Chillos, a minutos de Quito. Domo y cabaña triangular desde $75 la noche para dos. Reserva por WhatsApp.">
-<meta property="og:title" content="Tampu Ilaló Glamping · Tu escapada con jacuzzi privado">
-<meta property="og:description" content="Desayuno incluido, jacuzzi privado y vista al Ilaló. Desde $75 por noche para dos.">
+<title>Tampu Ilaló Glamping · Jacuzzi privado a 30 minutos de Quito</title>
+<meta name="description" content="Glamping entre eucaliptos en el Valle de los Chillos. Domo y cabaña triangular con jacuzzi privado y desayuno incluido, desde $75 la noche para dos. Más de 1.000 huéspedes. Reserva por WhatsApp.">
+<meta property="og:title" content="Tampu Ilaló Glamping">
+<meta property="og:description" content="Jacuzzi privado y desayuno incluido, a 30 minutos de Quito. Desde $75 la noche para dos.">
+<meta property="og:image" content="assets/triangular.jpg">
 <meta property="og:type" content="website">
-<meta name="theme-color" content="#1F3B2D">
+<meta name="theme-color" content="#6E7A70">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-<!-- ============ CONFIG: reemplazar antes de publicar ============
-     1) WHATSAPP_NUMBER (en el <script> al final), formato 593XXXXXXXXX
-     2) Pegar aquí el Meta Pixel y/o GA4 (los clics a WhatsApp ya disparan eventos)
-     3) Reemplazar las ilustraciones .ph por fotos reales (webp, <200 KB)
-=================================================================== -->
+<!-- ================= CONFIG =================
+  · WhatsApp: WHATSAPP_NUMBER en el <script> final (593984551095)
+  · Pegar aquí Meta Pixel / GA4: los clics a WhatsApp disparan "Contact" y "generate_lead"
+  · Fotos: reemplazar /assets/*.jpg por originales en alta (≥1600px, webp, <250 KB)
+============================================ -->
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "LodgingBusiness",
-  "name": "Tampu Ilaló Glamping",
-  "description": "Glamping con jacuzzi privado y desayuno incluido en el Valle de los Chillos, Quito.",
-  "address": {"@type": "PostalAddress","addressLocality": "Valle de los Chillos","addressRegion": "Pichincha","addressCountry": "EC"},
-  "priceRange": "$75 - $169",
-  "checkinTime": "15:00",
-  "checkoutTime": "12:00",
-  "amenityFeature": [
-    {"@type":"LocationFeatureSpecification","name":"Jacuzzi privado","value":true},
-    {"@type":"LocationFeatureSpecification","name":"Desayuno incluido","value":true},
-    {"@type":"LocationFeatureSpecification","name":"WiFi","value":true},
-    {"@type":"LocationFeatureSpecification","name":"Parqueadero","value":true}
-  ],
-  "sameAs": ["https://www.instagram.com/tampu.ilalo.glamping/"]
+  "@context":"https://schema.org",
+  "@type":"LodgingBusiness",
+  "name":"Tampu Ilaló Glamping",
+  "description":"Glamping con jacuzzi privado y desayuno incluido en el Valle de los Chillos, a 30 minutos de Quito.",
+  "telephone":"+593984551095",
+  "address":{"@type":"PostalAddress","addressLocality":"Valle de los Chillos","addressRegion":"Pichincha","addressCountry":"EC"},
+  "priceRange":"$75 - $169",
+  "checkinTime":"15:00","checkoutTime":"12:00",
+  "sameAs":["https://www.instagram.com/tampu.ilalo.glamping/"]
 }
 </script>
 
 <style>
 :root{
-  --forest:#1F3B2D;
-  --forest-2:#2C4D3B;
-  --moss:#5E7A45;
-  --terra:#B9683E;
-  --terra-dark:#9A532F;
-  --gold:#D3AE63;
-  --sand:#EFE5D3;
-  --cream:#FAF6EE;
-  --ink:#1C211D;
-  --muted:#5D655E;
-  --line:rgba(31,59,45,.14);
+  --sage:#6E7A70;
+  --sage-d:#56625A;
+  --sage-l:#A9B3A8;
+  --forest:#262E28;
+  --bone:#F5F3EE;
+  --paper:#FBFAF7;
+  --stone:#E7E3D9;
+  --ink:#1F2420;
+  --muted:#6A706B;
+  --line:rgba(38,46,40,.14);
   --wa:#25D366;
-  --radius:20px;
-  --shadow:0 18px 40px -18px rgba(31,59,45,.35);
-  --serif:"Fraunces",Georgia,serif;
-  --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+  --serif:"Cormorant Garamond",Georgia,serif;
+  --sans:"Jost",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:var(--sans);color:var(--ink);background:var(--cream);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
-img,svg{display:block;max-width:100%}
+html{scroll-behavior:smooth;overflow-x:hidden}
+body{font-family:var(--sans);font-weight:400;color:var(--ink);background:var(--bone);line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
 a{color:inherit}
-.wrap{width:100%;max-width:1160px;margin:0 auto;padding:0 20px}
-h1,h2,h3{font-family:var(--serif);line-height:1.12;letter-spacing:-.01em;color:var(--forest)}
-h2{font-size:clamp(1.9rem,4.2vw,2.8rem);font-weight:600}
-.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:.78rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--terra)}
-.eyebrow::before{content:"";width:22px;height:1.5px;background:currentColor}
-.lead{font-size:1.08rem;color:var(--muted);max-width:620px}
-section{padding:88px 0}
-.center{text-align:center}
-.center .lead{margin:14px auto 0}
+.wrap{width:100%;max-width:1200px;margin:0 auto;padding:0 24px}
+@media (max-width:600px){.wrap{padding:0 18px}}
+
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.05;color:var(--forest);letter-spacing:-.005em}
+h2{font-size:clamp(2.3rem,5vw,3.8rem)}
+h2 em,h1 em{font-style:italic;font-weight:400;color:var(--sage)}
+.kicker{font-size:.72rem;font-weight:500;letter-spacing:.32em;text-transform:uppercase;color:var(--sage)}
+.lead{font-size:1.06rem;color:var(--muted);font-weight:300;max-width:560px}
+section{padding:120px 0}
+@media (max-width:760px){section{padding:80px 0}}
+.head{display:grid;gap:18px;margin-bottom:64px}
+.head.center{text-align:center;justify-items:center}
 
 /* Buttons */
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-weight:600;font-size:1rem;padding:16px 26px;border-radius:999px;text-decoration:none;border:0;cursor:pointer;transition:transform .15s ease,box-shadow .2s ease,background .2s ease;font-family:var(--sans)}
-.btn:active{transform:scale(.98)}
-.btn-primary{background:var(--terra);color:#fff;box-shadow:0 12px 26px -12px rgba(185,104,62,.8)}
-.btn-primary:hover{background:var(--terra-dark)}
-.btn-ghost{background:rgba(255,255,255,.12);color:#fff;border:1.5px solid rgba(255,255,255,.45)}
-.btn-ghost:hover{background:rgba(255,255,255,.2)}
-.btn-wa{background:var(--wa);color:#073B1C}
-.btn-wa:hover{filter:brightness(.95)}
-.btn svg{width:20px;height:20px;flex:none}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:var(--sans);font-weight:500;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;padding:18px 30px;border-radius:2px;text-decoration:none;border:1px solid transparent;cursor:pointer;transition:background .25s,color .25s,border-color .25s}
+.btn svg{width:17px;height:17px;flex:none}
+.btn-dark{background:var(--forest);color:var(--bone)}
+.btn-dark:hover{background:var(--sage-d)}
+.btn-line{border-color:var(--forest);color:var(--forest);background:transparent}
+.btn-line:hover{background:var(--forest);color:var(--bone)}
+.btn-light{background:var(--bone);color:var(--forest)}
+.btn-light:hover{background:#fff}
+.btn-wa{background:var(--wa);color:#063A1B}
+.link{font-size:.76rem;letter-spacing:.22em;text-transform:uppercase;font-weight:500;text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:4px}
+
+/* Logo */
+.logo{display:inline-flex;flex-direction:column;align-items:center;text-decoration:none;line-height:1}
+.logo b{font-family:var(--sans);font-weight:300;font-size:1.15rem;letter-spacing:.55em;margin-right:-.55em}
+.logo small{font-size:.5rem;letter-spacing:.5em;margin-top:6px;margin-right:-.5em;opacity:.8;text-transform:uppercase}
 
 /* Nav */
-.nav{position:fixed;inset:0 0 auto 0;z-index:50;transition:background .25s ease,box-shadow .25s ease}
-.nav.scrolled{background:rgba(250,246,238,.94);backdrop-filter:blur(10px);box-shadow:0 1px 0 var(--line)}
-.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:70px}
-.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff;font-family:var(--serif);font-weight:600;font-size:1.2rem}
-.nav.scrolled .logo{color:var(--forest)}
-.logo svg{width:34px;height:34px}
-.logo small{display:block;font-family:var(--sans);font-size:.62rem;letter-spacing:.22em;text-transform:uppercase;font-weight:600;opacity:.8;margin-top:-2px}
-.nav-links{display:flex;gap:26px;align-items:center}
-.nav-links a{text-decoration:none;font-size:.92rem;font-weight:500;color:rgba(255,255,255,.88)}
-.nav.scrolled .nav-links a{color:var(--ink)}
-.nav-links .btn{padding:11px 20px;font-size:.9rem;color:#fff}
-@media (max-width:860px){.nav-links a:not(.btn){display:none}}
+.nav{position:fixed;inset:0 0 auto;z-index:50;transition:background .3s,box-shadow .3s}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:78px}
+.nav.scrolled{background:rgba(245,243,238,.95);backdrop-filter:blur(12px);box-shadow:0 1px 0 var(--line)}
+.nav-links{display:flex;align-items:center;gap:34px}
+.nav-links a:not(.btn){font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;color:var(--forest)}
+.nav .btn{padding:13px 22px}
+@media (max-width:900px){.nav-links a:not(.btn){display:none}}
 
 /* Hero */
-.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;color:#fff;padding:120px 0 64px;overflow:hidden;background:var(--forest)}
-.hero-bg{position:absolute;inset:0;z-index:0}
-.hero-bg svg{width:100%;height:100%;object-fit:cover}
-.hero-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,30,22,.25) 0%,rgba(15,30,22,.15) 40%,rgba(15,30,22,.85) 100%)}
-.hero .wrap{position:relative;z-index:2}
-.hero .eyebrow{color:var(--gold)}
-.hero h1{color:#fff;font-size:clamp(2.5rem,7vw,5rem);font-weight:600;max-width:820px;margin:16px 0 18px}
-.hero h1 em{font-style:italic;color:var(--gold);font-weight:400}
-.hero p{font-size:clamp(1.02rem,2vw,1.2rem);max-width:560px;color:rgba(255,255,255,.88)}
-.hero-ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
-.hero-chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:34px}
-.chip{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);font-size:.86rem;backdrop-filter:blur(6px)}
+.hero{padding:150px 0 90px;position:relative}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:70px;align-items:center}
+.hero h1{font-size:clamp(3rem,7.2vw,6.2rem);margin:22px 0 26px}
+.hero .lead{font-size:1.15rem}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:38px}
+.proof{display:flex;gap:40px;margin-top:56px;padding-top:30px;border-top:1px solid var(--line);flex-wrap:wrap}
+.proof div{display:grid}
+.proof b{font-family:var(--serif);font-weight:500;font-size:2.3rem;line-height:1;color:var(--forest)}
+.proof span{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-top:8px}
+.arch{position:relative;justify-self:end;width:100%;max-width:460px}
+.arch .frame{aspect-ratio:3/4;border-radius:240px 240px 4px 4px;overflow:hidden;background:var(--forest)}
+.arch img{width:100%;height:100%;object-fit:cover;transform:scale(1.02)}
+.arch .badge{position:absolute;left:-36px;bottom:48px;background:var(--paper);padding:20px 24px;box-shadow:0 24px 50px -24px rgba(38,46,40,.45);min-width:200px}
+.arch .badge span{font-size:.66rem;letter-spacing:.24em;text-transform:uppercase;color:var(--muted)}
+.arch .badge b{display:block;font-family:var(--serif);font-weight:500;font-size:2.4rem;line-height:1.05;color:var(--forest)}
+.arch .badge small{font-size:.8rem;color:var(--muted)}
+.arch .ring{position:absolute;top:-22px;right:-22px;width:110px;height:110px;border:1px solid var(--sage-l);border-radius:50%;z-index:-1}
+@media (max-width:900px){
+  .hero{padding:118px 0 60px}
+  .hero .wrap{grid-template-columns:1fr;gap:48px}
+  .arch{justify-self:center;max-width:380px}
+  .arch .badge{left:-10px}
+  .arch .ring{right:-8px}
+  .proof{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:40px}
+  .proof b{font-size:1.75rem}
+  .proof span{font-size:.6rem;letter-spacing:.12em}
+  .hero-ctas .btn{flex:1 1 100%}
+}
 
-/* Trust strip */
-.strip{background:var(--forest);color:var(--sand);padding:22px 0}
-.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-.strip div{display:flex;align-items:center;gap:12px;font-size:.92rem}
-.strip b{font-family:var(--serif);font-size:1.5rem;color:var(--gold);font-weight:600}
-@media (max-width:760px){.strip .wrap{grid-template-columns:1fr 1fr}}
+/* Manifesto */
+.manifesto{background:var(--sage);color:var(--bone);padding:110px 0;text-align:center}
+.manifesto .kicker{color:var(--stone)}
+.manifesto p.q{font-family:var(--serif);font-size:clamp(1.7rem,3.6vw,2.8rem);line-height:1.25;max-width:900px;margin:26px auto 0;font-weight:400}
+.manifesto p.q em{font-style:italic;color:#fff}
+.pillars{display:grid;grid-template-columns:repeat(4,1fr);margin-top:72px;border-top:1px solid rgba(245,243,238,.25)}
+.pillars div{padding:30px 18px 0;border-right:1px solid rgba(245,243,238,.25)}
+.pillars div:last-child{border-right:0}
+.pillars b{display:block;font-family:var(--serif);font-size:1.45rem;font-weight:500;margin-bottom:6px}
+.pillars span{font-size:.9rem;font-weight:300;opacity:.85}
+@media (max-width:760px){.pillars{grid-template-columns:1fr 1fr}.pillars div:nth-child(2){border-right:0}.pillars div{padding-bottom:26px}}
 
 /* Units */
-.units{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:52px}
-@media (max-width:860px){.units{grid-template-columns:1fr}}
-.unit{background:#fff;border-radius:28px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;border:1px solid var(--line)}
-.unit .ph{aspect-ratio:4/3;position:relative}
-.unit .ph svg{width:100%;height:100%}
-.tag{position:absolute;top:16px;left:16px;background:var(--cream);color:var(--forest);font-weight:600;font-size:.78rem;padding:7px 12px;border-radius:999px}
-.tag.hot{background:var(--terra);color:#fff}
-.unit-body{padding:28px;display:flex;flex-direction:column;flex:1}
-.unit h3{font-size:1.75rem;font-weight:600}
-.unit .from{color:var(--muted);margin-top:6px}
-.unit .from b{font-family:var(--serif);font-size:1.6rem;color:var(--terra);font-weight:600}
-.feat{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px 16px;margin:22px 0 24px}
-.feat li{display:flex;gap:9px;align-items:flex-start;font-size:.93rem}
-.feat li::before{content:"";flex:none;width:18px;height:18px;margin-top:3px;border-radius:50%;background:var(--sand) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231F3B2D' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12l5 5L20 7'/%3E%3C/svg%3E") center/11px no-repeat}
-.ideal{font-size:.9rem;background:var(--cream);border-radius:14px;padding:12px 14px;color:var(--forest);margin-bottom:22px}
-.unit .btn{margin-top:auto;width:100%}
+.unit{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+.unit + .unit{margin-top:130px}
+.unit.rev .u-img{order:2}
+.u-img{position:relative}
+.u-img .frame{aspect-ratio:4/5;overflow:hidden;background:var(--stone)}
+.u-img img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s ease}
+.unit:hover .u-img img{transform:scale(1.04)}
+.u-img .num{position:absolute;top:-34px;left:-14px;font-family:var(--serif);font-style:italic;font-size:5.5rem;line-height:1;color:var(--sage-l);z-index:1}
+.unit.rev .u-img .num{left:auto;right:-14px}
+.u-txt h3{font-size:clamp(2.4rem,4.5vw,3.4rem);margin:14px 0 18px}
+.u-txt .lead{margin-bottom:30px}
+.amen{list-style:none;display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line);margin-bottom:34px}
+.amen li{padding:14px 0;border-bottom:1px solid var(--line);font-size:.95rem;display:flex;gap:12px;align-items:center}
+.amen li::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--sage);flex:none}
+.u-price{display:flex;align-items:baseline;gap:14px;margin-bottom:30px}
+.u-price b{font-family:var(--serif);font-weight:500;font-size:3rem;line-height:1;color:var(--forest)}
+.u-price span{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.u-ctas{display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+@media (max-width:900px){
+  .unit{grid-template-columns:1fr;gap:40px}
+  .unit.rev .u-img{order:0}
+  .unit + .unit{margin-top:96px}
+  .u-img .num{font-size:4rem;top:-26px;left:-4px}
+  .unit.rev .u-img .num{right:-4px}
+}
 
 /* Rates */
-.rates-sec{background:var(--sand)}
-.rates{margin-top:44px;background:#fff;border-radius:24px;overflow:hidden;box-shadow:var(--shadow);border:1px solid var(--line)}
-.rates table{width:100%;border-collapse:collapse}
-.rates th,.rates td{padding:18px 20px;text-align:left;border-bottom:1px solid var(--line)}
-.rates thead th{background:var(--forest);color:var(--sand);font-family:var(--serif);font-weight:600;font-size:1.05rem}
-.rates td:not(:first-child),.rates th:not(:first-child){text-align:right}
-.rates td{font-variant-numeric:tabular-nums}
-.rates td b{font-size:1.15rem;color:var(--forest)}
-.rates tr:last-child td{border-bottom:0}
-.rates .best td:first-child::after{content:"Mejor precio";margin-left:10px;font-size:.7rem;font-weight:700;background:var(--moss);color:#fff;padding:3px 8px;border-radius:999px;vertical-align:middle;letter-spacing:.04em}
-.rates-notes{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:22px}
-.rates-notes div{background:rgba(255,255,255,.6);border-radius:16px;padding:16px 18px;font-size:.92rem;border:1px solid var(--line)}
-.rates-notes b{display:block;color:var(--forest)}
-@media (max-width:760px){.rates-notes{grid-template-columns:1fr}.rates th,.rates td{padding:14px 12px;font-size:.92rem}}
+.rates-sec{background:var(--paper)}
+.rates{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.rates th{font-size:.7rem;letter-spacing:.26em;text-transform:uppercase;font-weight:500;color:var(--muted);text-align:right;padding:0 0 18px;border-bottom:1px solid var(--forest)}
+.rates th:first-child,.rates td:first-child{text-align:left}
+.rates td{padding:26px 0;border-bottom:1px solid var(--line);text-align:right;font-family:var(--serif);font-size:1.9rem;color:var(--forest)}
+.rates td:first-child{font-family:var(--sans);font-size:1rem;color:var(--ink)}
+.rates td:first-child small{display:inline-block;margin-left:12px;font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--sage);border:1px solid var(--sage);padding:3px 8px;vertical-align:middle}
+.rate-notes{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;margin-top:56px}
+.rate-notes div{border-top:1px solid var(--line);padding-top:20px;font-size:.95rem;font-weight:300;color:var(--muted)}
+.rate-notes b{display:block;font-weight:500;color:var(--forest);margin-bottom:4px}
+@media (max-width:760px){.rates td{font-size:1.45rem;padding:20px 0}.rates td:first-child{font-size:.9rem}.rates td:first-child small{display:block;margin:6px 0 0;width:max-content}.rate-notes{grid-template-columns:1fr;gap:22px}}
 
 /* Calculator */
-.calc{display:grid;grid-template-columns:1.05fr .95fr;gap:0;margin-top:48px;border-radius:28px;overflow:hidden;box-shadow:var(--shadow);background:#fff;border:1px solid var(--line)}
-@media (max-width:860px){.calc{grid-template-columns:1fr}}
-.calc-form{padding:34px}
-.calc-out{background:var(--forest);color:var(--sand);padding:34px;display:flex;flex-direction:column}
-.field{margin-bottom:20px}
-.field label,.field .lbl{display:block;font-weight:600;font-size:.88rem;margin-bottom:8px;color:var(--forest)}
-.field input,.field select{width:100%;min-width:0;font:inherit;padding:14px 16px;border-radius:14px;border:1.5px solid var(--line);background:var(--cream);color:var(--ink);appearance:none}
-.field input:focus,.field select:focus{outline:2px solid var(--terra);outline-offset:1px}
+.calc{display:grid;grid-template-columns:1.1fr .9fr;background:var(--paper);border:1px solid var(--line)}
+@media (max-width:900px){.calc{grid-template-columns:1fr}}
+.c-form{padding:48px}
+.c-out{background:var(--forest);color:var(--bone);padding:48px;display:flex;flex-direction:column}
+@media (max-width:600px){.c-form,.c-out{padding:30px 22px}}
+.f{margin-bottom:28px}
+.f>label,.f>.l{display:block;font-size:.68rem;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;font-weight:500}
+.f input[type=date],.f select{width:100%;min-width:0;font:inherit;font-size:1rem;padding:14px 0;border:0;border-bottom:1px solid var(--forest);background:transparent;color:var(--ink);border-radius:0;appearance:none}
+.f input:focus,.f select:focus{outline:none;border-bottom-width:2px}
 .seg{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:relative}
 .seg input{position:absolute;left:0;top:0;width:1px;height:1px;opacity:0;pointer-events:none}
-.seg label{margin:0;padding:14px;border:1.5px solid var(--line);border-radius:14px;cursor:pointer;text-align:center;font-weight:600;background:var(--cream);transition:.15s}
-.seg input:checked+label{border-color:var(--terra);background:#FBEDE4;color:var(--terra-dark)}
-.seg input:focus-visible+label{outline:2px solid var(--terra)}
-.row2{display:grid;grid-template-columns:1.5fr 1fr;gap:12px}
-@media (max-width:480px){.calc-form,.calc-out{padding:24px 20px}}
-.stepper{display:flex;align-items:center;border:1.5px solid var(--line);border-radius:14px;background:var(--cream);overflow:hidden}
-.stepper button{width:48px;height:50px;border:0;background:transparent;font-size:1.3rem;color:var(--forest);cursor:pointer;font-weight:600}
-.stepper output{flex:1;text-align:center;font-weight:600}
-.calc-out h3{color:#fff;font-size:1.4rem;font-weight:600}
-.breakdown{list-style:none;margin:18px 0;font-size:.92rem;flex:1}
-.breakdown li{display:flex;justify-content:space-between;padding:9px 0;border-bottom:1px dashed rgba(239,229,211,.2);font-variant-numeric:tabular-nums}
-.total{display:flex;justify-content:space-between;align-items:baseline;margin:8px 0 6px}
-.total span{font-size:.9rem;opacity:.8}
-.total b{font-family:var(--serif);font-size:2.6rem;color:var(--gold);font-weight:600}
-.small{font-size:.8rem;opacity:.72}
-.calc-out .btn{margin-top:18px;width:100%}
+.seg label{display:block;text-align:center;padding:16px 10px;border:1px solid var(--line);cursor:pointer;font-size:.95rem;transition:.2s;background:transparent}
+.seg input:checked+label{border-color:var(--forest);background:var(--forest);color:var(--bone)}
+.seg input:focus-visible+label{outline:2px solid var(--sage)}
+.row2{display:grid;grid-template-columns:1.5fr 1fr;gap:24px}
+.stepper{display:flex;align-items:center;border-bottom:1px solid var(--forest)}
+.stepper button{width:46px;height:48px;border:0;background:transparent;font-size:1.3rem;cursor:pointer;color:var(--forest)}
+.stepper output{flex:1;text-align:center;font-size:1.05rem}
+.c-out .kicker{color:var(--sage-l)}
+.c-out h3{color:var(--bone);font-size:2.1rem;margin:10px 0 22px}
+.bd{list-style:none;flex:1;font-size:.94rem;font-weight:300}
+.bd li{display:flex;justify-content:space-between;padding:11px 0;border-bottom:1px solid rgba(245,243,238,.14);font-variant-numeric:tabular-nums}
+.tot{display:flex;justify-content:space-between;align-items:baseline;margin:22px 0 8px}
+.tot span{font-size:.7rem;letter-spacing:.24em;text-transform:uppercase;opacity:.75}
+.tot b{font-family:var(--serif);font-size:3.4rem;font-weight:500;line-height:1}
+.fine{font-size:.8rem;opacity:.65;font-weight:300}
+.c-out .btn{margin-top:26px;width:100%}
 
 /* Experiences */
-.exp{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:48px}
-@media (max-width:860px){.exp{grid-template-columns:1fr}}
-.card{background:#fff;border-radius:var(--radius);padding:28px;border:1px solid var(--line)}
-.card .ico{width:52px;height:52px;border-radius:16px;background:var(--sand);display:grid;place-items:center;margin-bottom:18px}
-.card .ico svg{width:26px;height:26px;stroke:var(--terra)}
-.card h3{font-size:1.3rem;margin-bottom:8px;font-weight:600}
-.card p{color:var(--muted);font-size:.95rem}
-.card .pill{display:inline-block;margin-top:14px;font-size:.75rem;font-weight:700;color:var(--moss);letter-spacing:.06em;text-transform:uppercase}
+.exp{display:grid;grid-template-columns:1.2fr 1fr;gap:70px;align-items:center}
+.exp .frame{aspect-ratio:16/10;overflow:hidden}
+.exp .frame img{width:100%;height:100%;object-fit:cover}
+.exp-list{list-style:none;border-top:1px solid var(--line)}
+.exp-list li{padding:26px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:48px 1fr;gap:6px 0}
+.exp-list i{font-family:var(--serif);font-style:italic;font-size:1.2rem;color:var(--sage);grid-row:span 2}
+.exp-list h3{font-size:1.7rem}
+.exp-list p{color:var(--muted);font-weight:300;font-size:.96rem}
+@media (max-width:900px){.exp{grid-template-columns:1fr;gap:44px}}
+
+/* Promo band */
+.promo{background:var(--forest);color:var(--bone);padding:100px 0}
+.promo .wrap{display:grid;grid-template-columns:1.3fr 1fr;gap:50px;align-items:center}
+.promo h2{color:var(--bone)}
+.promo h2 em{color:var(--sage-l)}
+.promo p{font-weight:300;opacity:.8;margin-top:18px;max-width:520px}
+.promo .box{border:1px solid rgba(245,243,238,.25);padding:38px;text-align:center}
+.promo .box .yo{font-family:var(--serif);font-size:5rem;line-height:1;font-style:italic;color:#fff}
+.promo .box small{display:block;font-size:.7rem;letter-spacing:.24em;text-transform:uppercase;opacity:.7;margin:10px 0 26px}
+.promo .box .btn{width:100%}
+@media (max-width:900px){.promo .wrap{grid-template-columns:1fr}}
 
 /* Steps */
-.steps-sec{background:var(--forest);color:var(--sand)}
-.steps-sec h2{color:#fff}
-.steps-sec .lead{color:rgba(239,229,211,.78)}
-.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:48px;counter-reset:s}
-@media (max-width:760px){.steps{grid-template-columns:1fr}}
-.step{background:var(--forest-2);border-radius:var(--radius);padding:28px;border:1px solid rgba(239,229,211,.1)}
-.step::before{counter-increment:s;content:counter(s);display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:var(--gold);color:var(--forest);font-family:var(--serif);font-weight:700;font-size:1.2rem;margin-bottom:16px}
-.step h3{color:#fff;font-size:1.2rem;margin-bottom:6px;font-weight:600}
-.step p{font-size:.94rem;opacity:.82}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:50px;counter-reset:s}
+.steps div{border-top:1px solid var(--forest);padding-top:26px}
+.steps div::before{counter-increment:s;content:"0" counter(s);font-family:var(--serif);font-style:italic;font-size:2.6rem;color:var(--sage);display:block;line-height:1;margin-bottom:18px}
+.steps h3{font-size:1.6rem;margin-bottom:8px}
+.steps p{color:var(--muted);font-weight:300}
+@media (max-width:760px){.steps{grid-template-columns:1fr;gap:34px}}
 
-/* Policies & FAQ */
-.split{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:start}
-@media (max-width:860px){.split{grid-template-columns:1fr;gap:36px}}
-.policy{list-style:none;margin-top:26px;display:grid;gap:12px}
-.policy li{display:flex;gap:14px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px 18px}
-.policy li strong{display:block;color:var(--forest)}
-.policy li span{font-size:.92rem;color:var(--muted)}
-.policy .k{font-family:var(--serif);font-weight:600;color:var(--terra);font-size:1.1rem;min-width:62px}
-details{border-bottom:1px solid var(--line);padding:6px 0}
-summary{list-style:none;cursor:pointer;padding:16px 36px 16px 0;font-weight:600;position:relative;color:var(--forest)}
+/* FAQ */
+.faq-sec{background:var(--paper)}
+.split{display:grid;grid-template-columns:.85fr 1.15fr;gap:80px}
+@media (max-width:900px){.split{grid-template-columns:1fr;gap:50px}}
+.pol{list-style:none;margin-top:36px;border-top:1px solid var(--line)}
+.pol li{display:grid;grid-template-columns:90px 1fr;padding:18px 0;border-bottom:1px solid var(--line);align-items:baseline}
+.pol .k{font-family:var(--serif);font-size:1.55rem;color:var(--forest)}
+.pol strong{font-weight:500;display:block}
+.pol span{font-size:.9rem;color:var(--muted);font-weight:300}
+details{border-bottom:1px solid var(--line)}
+details:first-of-type{border-top:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;padding:24px 40px 24px 0;position:relative;font-family:var(--serif);font-size:1.45rem;color:var(--forest);line-height:1.25}
 summary::-webkit-details-marker{display:none}
-summary::after{content:"+";position:absolute;right:4px;top:12px;font-size:1.5rem;font-weight:400;color:var(--terra);transition:transform .2s}
-details[open] summary::after{transform:rotate(45deg)}
-details p{padding:0 0 18px;color:var(--muted);font-size:.96rem}
+summary::after{content:"";position:absolute;right:6px;top:50%;width:12px;height:12px;border-right:1px solid var(--forest);border-bottom:1px solid var(--forest);transform:translateY(-70%) rotate(45deg);transition:transform .25s}
+details[open] summary::after{transform:translateY(-30%) rotate(-135deg)}
+details p{padding:0 0 26px;color:var(--muted);font-weight:300;max-width:620px}
 
-/* Final CTA */
-.final{position:relative;overflow:hidden;background:var(--terra);color:#fff;text-align:center;padding:96px 0}
-.final h2{color:#fff;max-width:720px;margin:0 auto}
-.final p{max-width:560px;margin:14px auto 30px;opacity:.92;font-size:1.08rem}
-.final .btn-primary{background:var(--forest);box-shadow:none}
-.final .btn-primary:hover{background:#163023}
-.final svg.mtn{position:absolute;left:0;right:0;bottom:0;width:100%;height:120px;opacity:.18}
+/* Final */
+.final{position:relative;background:var(--sage);color:var(--bone);text-align:center;padding:130px 0}
+.final h2{color:var(--bone);max-width:780px;margin:18px auto 22px}
+.final h2 em{color:#fff}
+.final p{font-weight:300;opacity:.9;max-width:520px;margin:0 auto 40px}
+.final .kicker{color:var(--stone)}
 
-footer{background:#142A1F;color:rgba(239,229,211,.75);padding:44px 0 110px;font-size:.9rem}
-footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px;align-items:center}
-footer a{color:var(--gold);text-decoration:none}
-@media (min-width:861px){footer{padding-bottom:44px}}
+footer{background:var(--forest);color:rgba(245,243,238,.7);padding:70px 0 120px;font-size:.9rem;font-weight:300}
+footer .cols{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:40px;align-items:start}
+footer .logo{color:var(--bone);align-items:flex-start}
+footer h4{font-size:.68rem;letter-spacing:.26em;text-transform:uppercase;color:var(--bone);font-weight:500;margin-bottom:14px}
+footer a{text-decoration:none;color:var(--bone)}
+footer p{margin-top:4px}
+.copy{border-top:1px solid rgba(245,243,238,.12);margin-top:50px;padding-top:24px;font-size:.78rem}
+@media (max-width:760px){footer .cols{grid-template-columns:1fr}}
+@media (min-width:901px){footer{padding-bottom:70px}}
 
-/* Sticky mobile bar + float */
-.mbar{position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(250,246,238,.97);backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom));display:none;align-items:center;gap:12px}
-.mbar .p{flex:1;font-size:.8rem;color:var(--muted);line-height:1.25}
-.mbar .p b{display:block;font-family:var(--serif);font-size:1.15rem;color:var(--forest)}
-.mbar .btn{padding:13px 18px;font-size:.95rem}
-@media (max-width:860px){.mbar{display:flex}}
-.fab{position:fixed;right:22px;bottom:22px;z-index:60;width:60px;height:60px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 14px 30px -10px rgba(0,0,0,.4);transition:transform .2s}
+/* Mobile bar + FAB */
+.mbar{position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(251,250,247,.97);backdrop-filter:blur(12px);border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom));display:none;align-items:center;gap:14px;transform:translateY(110%);transition:transform .35s}
+.mbar.show{transform:none}
+.mbar .p{flex:1;line-height:1.2}
+.mbar .p span{font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.mbar .p b{display:block;font-family:var(--serif);font-size:1.5rem;font-weight:500;color:var(--forest)}
+.mbar .btn{padding:15px 20px}
+@media (max-width:900px){.mbar{display:flex}}
+.fab{position:fixed;right:26px;bottom:26px;z-index:60;width:58px;height:58px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 14px 30px -12px rgba(0,0,0,.45);color:#fff;transition:transform .2s}
 .fab:hover{transform:scale(1.06)}
-.fab svg{width:30px;height:30px}
-@media (max-width:860px){.fab{display:none}}
+.fab svg{width:28px;height:28px}
+@media (max-width:900px){.fab{display:none}}
 
-.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
-.reveal.in{opacity:1;transform:none}
-@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+.rv{opacity:0;transform:translateY(24px);transition:opacity .9s ease,transform .9s ease}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
 </style>
 </head>
 <body>
 
-<!-- Reusable icons -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2.01-1.42.25-.7.25-1.29.17-1.42-.07-.12-.27-.2-.57-.35M12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.32l-.34-.2-3.57.94.95-3.48-.22-.36a9.42 9.42 0 0 1-1.45-5.03c0-5.2 4.24-9.44 9.45-9.44a9.4 9.4 0 0 1 9.44 9.45c0 5.21-4.24 9.44-9.45 9.44m8.04-17.48A11.3 11.3 0 0 0 12.04.7C5.78.7.68 5.8.68 12.06c0 2 .52 3.96 1.52 5.68L.58 23.7l6.1-1.6a11.33 11.33 0 0 0 5.36 1.36h.01c6.27 0 11.37-5.1 11.37-11.36 0-3.04-1.18-5.89-3.33-8.04"/></symbol>
-  <symbol id="i-logo" viewBox="0 0 48 48"><circle cx="24" cy="24" r="23" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 34 L19 18 L25 26 L30 20 L40 34 Z" fill="currentColor" opacity=".9"/><path d="M19 34 a6 6 0 0 1 12 0" fill="none" stroke="#D3AE63" stroke-width="2"/><circle cx="33" cy="13" r="3" fill="#D3AE63"/></symbol>
+  <symbol id="wa" viewBox="0 0 24 24"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2.01-1.42.25-.7.25-1.29.17-1.42-.07-.12-.27-.2-.57-.35M12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.32l-.34-.2-3.57.94.95-3.48-.22-.36a9.42 9.42 0 0 1-1.45-5.03c0-5.2 4.24-9.44 9.45-9.44a9.4 9.4 0 0 1 9.44 9.45c0 5.21-4.24 9.44-9.45 9.44m8.04-17.48A11.3 11.3 0 0 0 12.04.7C5.78.7.68 5.8.68 12.06c0 2 .52 3.96 1.52 5.68L.58 23.7l6.1-1.6a11.33 11.33 0 0 0 5.36 1.36h.01c6.27 0 11.37-5.1 11.37-11.36 0-3.04-1.18-5.89-3.33-8.04"/></symbol>
 </svg>
 
-<!-- NAV -->
 <header class="nav" id="nav">
   <div class="wrap">
-    <a href="#top" class="logo" aria-label="Tampu Ilaló Glamping">
-      <svg><use href="#i-logo"/></svg>
-      <span>Tampu Ilaló<small>Glamping</small></span>
-    </a>
+    <a href="#top" class="logo" aria-label="Tampu Ilaló Glamping"><b>TAMPU</b><small>Glamping</small></a>
     <nav class="nav-links">
-      <a href="#alojamientos">Alojamientos</a>
+      <a href="#refugios">Refugios</a>
       <a href="#tarifas">Tarifas</a>
       <a href="#experiencias">Experiencias</a>
       <a href="#faq">Preguntas</a>
-      <a href="#cotizar" class="btn btn-primary">Ver disponibilidad</a>
+      <a href="#reservar" class="btn btn-dark">Reservar</a>
     </nav>
   </div>
 </header>
 
 <!-- HERO -->
 <section class="hero" id="top">
-  <div class="hero-bg" aria-hidden="true">
-    <!-- REEMPLAZAR por foto real nocturna del domo/jacuzzi -->
-    <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
-      <defs>
-        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16271F"/><stop offset=".55" stop-color="#3B5A44"/><stop offset="1" stop-color="#C98A5B"/></linearGradient>
-        <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#FFD58F" stop-opacity=".9"/><stop offset="1" stop-color="#FFD58F" stop-opacity="0"/></radialGradient>
-      </defs>
-      <rect width="1440" height="900" fill="url(#sky)"/>
-      <g fill="#fff" opacity=".7"><circle cx="180" cy="120" r="1.6"/><circle cx="420" cy="80" r="1.2"/><circle cx="640" cy="160" r="1.4"/><circle cx="910" cy="70" r="1.8"/><circle cx="1120" cy="140" r="1.2"/><circle cx="1300" cy="90" r="1.5"/><circle cx="300" cy="230" r="1"/><circle cx="1000" cy="230" r="1"/></g>
-      <circle cx="1120" cy="210" r="46" fill="#F3E3BE" opacity=".9"/>
-      <path d="M0 620 L260 470 L420 540 L720 330 L900 450 L1080 390 L1440 560 L1440 900 L0 900Z" fill="#2C4D3B"/>
-      <path d="M0 700 L300 600 L560 660 L820 560 L1100 640 L1440 600 L1440 900 L0 900Z" fill="#1F3B2D"/>
-      <circle cx="720" cy="690" r="220" fill="url(#glow)"/>
-      <path d="M590 760 a130 130 0 0 1 260 0Z" fill="#EFE5D3"/>
-      <path d="M590 760 a130 130 0 0 1 260 0" fill="none" stroke="#B9683E" stroke-width="3"/>
-      <path d="M640 700 Q720 640 800 700 M612 735 Q720 680 828 735" stroke="#B9683E" stroke-width="2" fill="none" opacity=".6"/>
-      <path d="M690 760 a30 36 0 0 1 60 0Z" fill="#FFD58F"/>
-      <rect x="0" y="760" width="1440" height="140" fill="#142A1F"/>
-      <ellipse cx="960" cy="790" rx="120" ry="18" fill="#7FB3A6" opacity=".55"/>
-      <g fill="#142A1F"><path d="M120 760 l40 -120 l40 120z"/><path d="M200 760 l30 -90 l30 90z"/><path d="M1240 760 l40 -130 l40 130z"/><path d="M1320 760 l28 -86 l28 86z"/></g>
-    </svg>
-  </div>
   <div class="wrap">
-    <span class="eyebrow">Valle de los Chillos · Quito</span>
-    <h1>Desconéctate a minutos de Quito, <em>con jacuzzi privado</em> bajo las estrellas</h1>
-    <p>Glamping para parejas al pie del Ilaló. Desayuno incluido, limpieza e IVA incluidos. Solo llegas y descansas.</p>
-    <div class="hero-ctas">
-      <a href="#cotizar" class="btn btn-primary">Calcular mi estadía</a>
-      <a href="#" class="btn btn-ghost js-wa" data-src="hero" data-msg="Hola Tampu Ilaló 💚 Quiero consultar disponibilidad para una escapada.">
-        <svg><use href="#i-wa"/></svg> Escribir por WhatsApp
-      </a>
+    <div class="rv">
+      <span class="kicker">Valle de los Chillos · a 30 min de Quito</span>
+      <h1>Un refugio entre eucaliptos, con <em>jacuzzi privado</em></h1>
+      <p class="lead">Domo y cabaña triangular para dos, al pie del Ilaló. Desayuno, limpieza e IVA incluidos. Tú solo llegas y te desconectas.</p>
+      <div class="hero-ctas">
+        <a href="#reservar" class="btn btn-dark">Ver disponibilidad</a>
+        <a href="#" class="btn btn-line js-wa" data-src="hero_promo" data-msg="YO">Quiero la promo del mes</a>
+      </div>
+      <div class="proof">
+        <div><b>+1.000</b><span>Huéspedes felices</span></div>
+        <div><b>30,6 mil</b><span>Nos siguen en IG</span></div>
+        <div><b>30 min</b><span>Desde Quito</span></div>
+      </div>
     </div>
-    <div class="hero-chips">
-      <span class="chip">🛁 Jacuzzi privado</span>
-      <span class="chip">🥐 Desayuno incluido</span>
-      <span class="chip">⛰️ Vista al Ilaló</span>
-      <span class="chip">💵 Desde $75 la noche para dos</span>
+    <div class="arch rv">
+      <span class="ring" aria-hidden="true"></span>
+      <div class="frame"><img src="assets/triangular.jpg" alt="Cabaña triangular iluminada entre eucaliptos al anochecer" fetchpriority="high"></div>
+      <div class="badge"><span>Desde</span><b>$75</b><small>la noche para dos · desayuno incluido</small></div>
     </div>
   </div>
 </section>
 
-<!-- STRIP -->
-<div class="strip">
+<!-- MANIFESTO -->
+<section class="manifesto">
   <div class="wrap">
-    <div><b>$75</b> por noche para dos, de lunes a martes</div>
-    <div><b>2</b> alojamientos con jacuzzi privado</div>
-    <div><b>15:00</b> check-in · 12:00 check-out</div>
-    <div><b>0</b> cargos ocultos (IVA y limpieza incluidos)</div>
+    <span class="kicker rv">Tampu · del kichwa</span>
+    <p class="q rv">En el camino andino, un <em>tampu</em> era el lugar donde el viajero se detenía a descansar. Eso es lo que te ofrecemos: <em>una pausa</em>, a media hora de la ciudad.</p>
+    <div class="pillars rv">
+      <div><b>Jacuzzi privado</b><span>Solo para ti y tu pareja</span></div>
+      <div><b>Desayuno incluido</b><span>Para empezar la mañana sin prisa</span></div>
+      <div><b>Entre eucaliptos</b><span>Silencio, bosque y aire puro</span></div>
+      <div><b>Todo incluido</b><span>Limpieza e IVA, sin sorpresas</span></div>
+    </div>
   </div>
-</div>
+</section>
 
 <!-- UNITS -->
-<section id="alojamientos">
+<section id="refugios">
   <div class="wrap">
-    <div class="center reveal">
-      <span class="eyebrow">Elige tu refugio</span>
-      <h2>Dos maneras de escaparte</h2>
-      <p class="lead">Ambos alojamientos tienen jacuzzi privado, desayuno incluido y WiFi. La diferencia está en el estilo de tu escapada.</p>
+    <div class="head center rv">
+      <span class="kicker">Nuestros refugios</span>
+      <h2>Dos formas de <em>desconectarte</em></h2>
     </div>
 
-    <div class="units">
-      <!-- DOMO -->
-      <article class="unit reveal">
-        <div class="ph">
-          <span class="tag">Ideal para desconectar</span>
-          <!-- REEMPLAZAR por foto real del Domo -->
-          <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-label="Domo con jacuzzi">
-            <rect width="400" height="300" fill="#D9C9AC"/>
-            <path d="M0 170 L90 100 L160 140 L250 70 L330 120 L400 90 L400 300 L0 300Z" fill="#7C9466"/>
-            <path d="M0 220 L400 200 L400 300 L0 300Z" fill="#5E7A45"/>
-            <path d="M110 240 a90 90 0 0 1 180 0Z" fill="#FAF6EE"/>
-            <path d="M110 240 a90 90 0 0 1 180 0" fill="none" stroke="#1F3B2D" stroke-width="3"/>
-            <path d="M140 200 Q200 160 260 200 M124 222 Q200 186 276 222 M200 150 V240" stroke="#1F3B2D" stroke-width="1.5" fill="none" opacity=".45"/>
-            <path d="M180 240 a20 26 0 0 1 40 0Z" fill="#B9683E"/>
-            <ellipse cx="330" cy="255" rx="48" ry="12" fill="#8CC0B3"/>
-            <rect x="0" y="240" width="400" height="60" fill="#4C653A"/>
-            <ellipse cx="330" cy="258" rx="44" ry="10" fill="#9FD0C3"/>
-          </svg>
+    <article class="unit">
+      <div class="u-img rv">
+        <span class="num">01</span>
+        <div class="frame"><img src="assets/domo.jpg" alt="Domo geodésico rodeado de jardín y eucaliptos" loading="lazy"></div>
+      </div>
+      <div class="u-txt rv">
+        <span class="kicker">Para la escapada al aire libre</span>
+        <h3>Domo con jacuzzi</h3>
+        <p class="lead">Duerme en un domo rodeado de bosque, con zona BBQ para una parrillada al atardecer. Tiene dos camas, así que también sirve si viajas con un amigo o un familiar.</p>
+        <ul class="amen">
+          <li>Jacuzzi privado</li><li>Desayuno incluido</li>
+          <li>Zona BBQ</li><li>Parqueadero</li>
+          <li>Dos camas</li><li>Toallas y WiFi</li>
+        </ul>
+        <div class="u-price"><b>$75</b><span>Desde · noche · 2 personas</span></div>
+        <div class="u-ctas">
+          <a href="#" class="btn btn-dark js-wa" data-src="unit_domo" data-msg="Hola Tampu 🌿 Me interesa el DOMO CON JACUZZI. ¿Qué fechas tienen disponibles?"><svg><use href="#wa"/></svg>Reservar el Domo</a>
+          <a href="#reservar" class="link js-pick" data-unit="domo">Calcular precio</a>
         </div>
-        <div class="unit-body">
-          <h3>Domo con jacuzzi</h3>
-          <p class="from">Desde <b>$75</b> / noche · 2 personas</p>
-          <ul class="feat">
-            <li>Jacuzzi privado</li>
-            <li>Desayuno incluido</li>
-            <li>Zona BBQ</li>
-            <li>Parqueadero</li>
-            <li>Dos camas</li>
-            <li>Toallas y WiFi</li>
-          </ul>
-          <p class="ideal"><strong>Perfecto si</strong> buscas una noche de jacuzzi y parrilla al aire libre, o viajas con un amigo o un familiar: tiene dos camas.</p>
-          <a href="#" class="btn btn-primary js-wa" data-src="unit_domo" data-msg="Hola Tampu Ilaló 💚 Me interesa el DOMO CON JACUZZI. ¿Qué disponibilidad tienen?">
-            <svg><use href="#i-wa"/></svg> Reservar el Domo
-          </a>
-        </div>
-      </article>
+      </div>
+    </article>
 
-      <!-- TRIANGULAR -->
-      <article class="unit reveal">
-        <div class="ph">
-          <span class="tag hot">Vista panorámica</span>
-          <!-- REEMPLAZAR por foto real de la Triangular -->
-          <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-label="Cabaña triangular con jacuzzi">
-            <rect width="400" height="300" fill="#E8B98F"/>
-            <circle cx="320" cy="70" r="26" fill="#F7E2B8"/>
-            <path d="M0 160 L110 80 L190 130 L280 60 L400 140 L400 300 L0 300Z" fill="#5E7A45"/>
-            <path d="M0 210 L400 190 L400 300 L0 300Z" fill="#2C4D3B"/>
-            <path d="M120 250 L200 110 L280 250Z" fill="#1F3B2D"/>
-            <path d="M150 250 L200 160 L250 250Z" fill="#FFD58F"/>
-            <path d="M200 160 V250 M175 205 H225" stroke="#1F3B2D" stroke-width="2"/>
-            <rect x="0" y="246" width="400" height="54" fill="#1F3B2D"/>
-            <ellipse cx="80" cy="262" rx="46" ry="11" fill="#9FD0C3"/>
-          </svg>
+    <article class="unit rev">
+      <div class="u-img rv">
+        <span class="num">02</span>
+        <div class="frame"><img src="assets/triangular.jpg" alt="Cabaña triangular con luz cálida en el bosque" loading="lazy"></div>
+      </div>
+      <div class="u-txt rv">
+        <span class="kicker">Para celebrar o quedarse más</span>
+        <h3>Triangular con jacuzzi</h3>
+        <p class="lead">Una cabaña A-frame con vista panorámica, cocina equipada y sofá. Pensada para aniversarios, sorpresas y para quienes quieren quedarse más de una noche.</p>
+        <ul class="amen">
+          <li>Jacuzzi privado</li><li>Desayuno incluido</li>
+          <li>Vista panorámica</li><li>Cocina equipada</li>
+          <li>Refrigeradora</li><li>Cama, sofá y WiFi</li>
+        </ul>
+        <div class="u-price"><b>$75</b><span>Desde · noche · 2 personas</span></div>
+        <div class="u-ctas">
+          <a href="#" class="btn btn-dark js-wa" data-src="unit_triangular" data-msg="Hola Tampu 🌿 Me interesa la TRIANGULAR CON JACUZZI. ¿Qué fechas tienen disponibles?"><svg><use href="#wa"/></svg>Reservar la Triangular</a>
+          <a href="#reservar" class="link js-pick" data-unit="tri">Calcular precio</a>
         </div>
-        <div class="unit-body">
-          <h3>Triangular con jacuzzi</h3>
-          <p class="from">Desde <b>$75</b> / noche · 2 personas</p>
-          <ul class="feat">
-            <li>Jacuzzi privado</li>
-            <li>Desayuno incluido</li>
-            <li>Vista panorámica</li>
-            <li>Cocina equipada</li>
-            <li>Refrigeradora</li>
-            <li>Cama, sofá y WiFi</li>
-          </ul>
-          <p class="ideal"><strong>Perfecto si</strong> celebras algo especial, quieres cocinar a tu ritmo o planeas quedarte más de una noche.</p>
-          <a href="#" class="btn btn-primary js-wa" data-src="unit_triangular" data-msg="Hola Tampu Ilaló 💚 Me interesa la TRIANGULAR CON JACUZZI. ¿Qué disponibilidad tienen?">
-            <svg><use href="#i-wa"/></svg> Reservar la Triangular
-          </a>
-        </div>
-      </article>
-    </div>
+      </div>
+    </article>
   </div>
 </section>
 
 <!-- RATES -->
 <section class="rates-sec" id="tarifas">
   <div class="wrap">
-    <div class="center reveal">
-      <span class="eyebrow">Tarifas claras</span>
-      <h2>Precio por noche para dos personas</h2>
-      <p class="lead">Desayuno, limpieza e IVA incluidos. Sin letras pequeñas.</p>
+    <div class="head rv">
+      <span class="kicker">Tarifas</span>
+      <h2>Precio por noche, <em>para dos</em></h2>
+      <p class="lead">Desayuno, limpieza e IVA incluidos en todas las tarifas.</p>
     </div>
-    <div class="rates reveal">
-      <table>
-        <thead><tr><th>Día</th><th>Domo</th><th>Triangular</th></tr></thead>
-        <tbody>
-          <tr class="best"><td>Lunes y martes</td><td><b>$75</b></td><td><b>$75</b></td></tr>
-          <tr><td>Miércoles, jueves y domingo</td><td><b>$85</b></td><td><b>$85</b></td></tr>
-          <tr><td>Viernes</td><td><b>$110</b></td><td><b>$125</b></td></tr>
-          <tr><td>Sábado</td><td><b>$140</b></td><td><b>$169</b></td></tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="rates-notes reveal">
-      <div><b>+$15 por persona adicional</b>A partir de la tercera persona, por noche.</div>
-      <div><b>Entre semana pagas hasta 55% menos</b>Un lunes cuesta $75 y un sábado en la Triangular, $169: misma experiencia, sin multitudes.</div>
-      <div><b>Comida y extras aparte</b>Tenemos menú con costo adicional, decoración y pilates en pareja.</div>
+    <table class="rates rv">
+      <thead><tr><th>Día</th><th>Domo</th><th>Triangular</th></tr></thead>
+      <tbody>
+        <tr><td>Lunes y martes <small>Mejor precio</small></td><td>$75</td><td>$75</td></tr>
+        <tr><td>Miércoles, jueves y domingo</td><td>$85</td><td>$85</td></tr>
+        <tr><td>Viernes</td><td>$110</td><td>$125</td></tr>
+        <tr><td>Sábado</td><td>$140</td><td>$169</td></tr>
+      </tbody>
+    </table>
+    <div class="rate-notes rv">
+      <div><b>Entre semana, hasta 55% menos</b>La misma experiencia que un sábado, con más silencio y mejor precio.</div>
+      <div><b>Persona adicional: +$15</b>Desde la tercera persona, por noche.</div>
+      <div><b>Horarios</b>Check-in desde las 15:00 y check-out hasta las 12:00.</div>
     </div>
   </div>
 </section>
 
 <!-- CALCULATOR -->
-<section id="cotizar">
+<section id="reservar">
   <div class="wrap">
-    <div class="center reveal">
-      <span class="eyebrow">Cotiza en 10 segundos</span>
-      <h2>Calcula tu escapada y reserva por WhatsApp</h2>
-      <p class="lead">Elige la fecha y el alojamiento, y te enviamos el mensaje listo. Nosotros te confirmamos la disponibilidad.</p>
+    <div class="head center rv">
+      <span class="kicker">Reserva en un minuto</span>
+      <h2>Arma tu escapada</h2>
+      <p class="lead">Elige el refugio y la fecha. Te enviamos el mensaje listo por WhatsApp y te confirmamos la disponibilidad.</p>
     </div>
-
-    <div class="calc reveal">
-      <form class="calc-form" id="calcForm" onsubmit="return false">
-        <div class="field">
-          <span class="lbl">Alojamiento</span>
+    <div class="calc rv">
+      <form class="c-form" id="cf" onsubmit="return false">
+        <div class="f">
+          <span class="l">Refugio</span>
           <div class="seg">
-            <input type="radio" name="unit" id="u-domo" value="domo" checked><label for="u-domo">🛖 Domo</label>
-            <input type="radio" name="unit" id="u-tri" value="tri"><label for="u-tri">🏡 Triangular</label>
+            <input type="radio" name="unit" id="u-domo" value="domo" checked><label for="u-domo">Domo</label>
+            <input type="radio" name="unit" id="u-tri" value="tri"><label for="u-tri">Triangular</label>
           </div>
         </div>
         <div class="row2">
-          <div class="field">
-            <label for="checkin">Fecha de llegada</label>
-            <input type="date" id="checkin" required>
-          </div>
-          <div class="field">
-            <label for="nights">Noches</label>
-            <select id="nights">
-              <option value="1">1 noche</option><option value="2">2 noches</option><option value="3">3 noches</option><option value="4">4 noches</option>
-            </select>
+          <div class="f"><label for="ci">Llegada</label><input type="date" id="ci"></div>
+          <div class="f"><label for="nn">Noches</label>
+            <select id="nn"><option value="1">1 noche</option><option value="2">2 noches</option><option value="3">3 noches</option><option value="4">4 noches</option></select>
           </div>
         </div>
-        <div class="field">
-          <span class="lbl">Personas</span>
-          <div class="stepper">
-            <button type="button" id="gMinus" aria-label="Quitar persona">−</button>
-            <output id="guests">2</output>
-            <button type="button" id="gPlus" aria-label="Agregar persona">+</button>
-          </div>
+        <div class="f">
+          <span class="l">Huéspedes</span>
+          <div class="stepper"><button type="button" id="gm" aria-label="Menos">−</button><output id="gg">2</output><button type="button" id="gp" aria-label="Más">+</button></div>
         </div>
-        <div class="field">
-          <span class="lbl">Extras (opcional, bajo reserva)</span>
+        <div class="f" style="margin-bottom:0">
+          <span class="l">Extras bajo reserva</span>
           <div class="seg">
-            <input type="checkbox" id="x-deco" value="Decoración especial"><label for="x-deco">💕 Decoración</label>
-            <input type="checkbox" id="x-pil" value="Pilates en pareja"><label for="x-pil">🧘 Pilates en pareja</label>
+            <input type="checkbox" id="x1" value="Decoración especial"><label for="x1">Decoración</label>
+            <input type="checkbox" id="x2" value="Pilates en pareja"><label for="x2">Pilates en pareja</label>
           </div>
         </div>
       </form>
-
-      <div class="calc-out" aria-live="polite">
-        <h3 id="outTitle">Domo con jacuzzi</h3>
-        <ul class="breakdown" id="breakdown"></ul>
-        <div class="total"><span>Total estimado</span><b id="total">$0</b></div>
-        <p class="small">Incluye desayuno, limpieza e IVA. Los extras y la comida se cotizan aparte. Sujeto a disponibilidad; en feriados la tarifa puede variar.</p>
-        <a href="#" class="btn btn-wa" id="calcWa" data-src="calculator">
-          <svg><use href="#i-wa"/></svg> Consultar disponibilidad
-        </a>
+      <div class="c-out" aria-live="polite">
+        <span class="kicker">Tu escapada</span>
+        <h3 id="ot">Domo con jacuzzi</h3>
+        <ul class="bd" id="bd"></ul>
+        <div class="tot"><span>Total estimado</span><b id="tt">$0</b></div>
+        <p class="fine">Incluye desayuno, limpieza e IVA. La comida y los extras se cotizan aparte. Sujeto a disponibilidad; en feriados la tarifa puede variar.</p>
+        <a href="#" class="btn btn-wa" id="cw"><svg><use href="#wa"/></svg>Consultar disponibilidad</a>
       </div>
     </div>
   </div>
@@ -497,197 +474,175 @@ footer a{color:var(--gold);text-decoration:none}
 
 <!-- EXPERIENCES -->
 <section id="experiencias" style="padding-top:0">
-  <div class="wrap">
-    <div class="center reveal">
-      <span class="eyebrow">Hazla inolvidable</span>
-      <h2>Más que una noche: una experiencia</h2>
-      <p class="lead">Agrega a tu reserva lo que convierte una escapada en un recuerdo.</p>
+  <div class="wrap exp">
+    <div class="frame rv"><img src="assets/jacuzzi.jpg" alt="Pareja disfrutando del jacuzzi privado en el bosque" loading="lazy"></div>
+    <div class="rv">
+      <span class="kicker">Hazla inolvidable</span>
+      <h2 style="margin:16px 0 34px">Más que una <em>noche</em></h2>
+      <ul class="exp-list">
+        <li><i>i.</i><h3>Decoración especial</h3><p>Aniversario, cumpleaños o pedida de mano: llegas y la sorpresa ya está lista.</p></li>
+        <li><i>ii.</i><h3>Pilates en pareja</h3><p>Una sesión guiada para reconectar, con el bosque de fondo.</p></li>
+        <li><i>iii.</i><h3>Menú en el glamping</h3><p>Pide tu comida y disfrútala sin salir de tu refugio. Costo adicional.</p></li>
+      </ul>
     </div>
-    <div class="exp">
-      <div class="card reveal">
-        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.5-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6C19 16.5 12 21 12 21z"/></svg></div>
-        <h3>Decoración especial</h3>
-        <p>Aniversarios, pedidas de mano o cumpleaños. Llegas y el espacio ya está preparado para la sorpresa.</p>
-        <span class="pill">Bajo reserva</span>
-      </div>
-      <div class="card reveal">
-        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="2"/><path d="M4 20l4-6 4 2 4-2 4 6M12 7v9"/></svg></div>
-        <h3>Pilates en pareja</h3>
-        <p>Una sesión guiada para reconectar con tu cuerpo y con tu pareja, con el valle de fondo.</p>
-        <span class="pill">Bajo reserva</span>
-      </div>
-      <div class="card reveal">
-        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11h16a8 8 0 0 1-16 0zM8 7c0-1 1-1.5 1-3M12 7c0-1 1-1.5 1-3M16 7c0-1 1-1.5 1-3"/></svg></div>
-        <h3>Menú en el glamping</h3>
-        <p>No te preocupes por cocinar ni por salir. Pide tu comida y disfrútala junto al jacuzzi.</p>
-        <span class="pill">Costo adicional · pregunta por el menú</span>
-      </div>
+  </div>
+</section>
+
+<!-- PROMO -->
+<section class="promo">
+  <div class="wrap">
+    <div class="rv">
+      <span class="kicker" style="color:var(--sage-l)">Solo por WhatsApp</span>
+      <h2 style="margin-top:16px">Cada mes tenemos una <em>promo</em> que no publicamos</h2>
+      <p>Escríbenos “YO” y te la enviamos junto con las fechas disponibles. Sin compromiso.</p>
+    </div>
+    <div class="box rv">
+      <div class="yo">“YO”</div>
+      <small>Envía esta palabra</small>
+      <a href="#" class="btn btn-light js-wa" data-src="promo_band" data-msg="YO"><svg><use href="#wa"/></svg>Recibir la promo</a>
     </div>
   </div>
 </section>
 
 <!-- STEPS -->
-<section class="steps-sec">
+<section>
   <div class="wrap">
-    <div class="center reveal">
-      <span class="eyebrow" style="color:var(--gold)">Reservar es simple</span>
-      <h2>De la idea a tu jacuzzi en 3 pasos</h2>
-      <p class="lead">Te atiende una persona real, no un formulario eterno.</p>
+    <div class="head rv">
+      <span class="kicker">Cómo reservar</span>
+      <h2>Simple, como debe ser</h2>
     </div>
     <div class="steps">
-      <div class="step reveal"><h3>Cuéntanos tu fecha</h3><p>Usa la calculadora o escríbenos directo por WhatsApp con la fecha que tienes en mente.</p></div>
-      <div class="step reveal"><h3>Te confirmamos disponibilidad</h3><p>Te respondemos con el alojamiento libre, el total y los datos para separar tu fecha.</p></div>
-      <div class="step reveal"><h3>Llegas y te desconectas</h3><p>Check-in desde las 15:00. El jacuzzi, el desayuno y la vista ya te están esperando.</p></div>
+      <div class="rv"><h3>Elige tu fecha</h3><p>Usa la calculadora o escríbenos directo por WhatsApp.</p></div>
+      <div class="rv"><h3>Te confirmamos</h3><p>Te respondemos con la disponibilidad, el total y los datos para separar tu fecha.</p></div>
+      <div class="rv"><h3>Llegas y descansas</h3><p>Desde las 15:00, el jacuzzi y el bosque te están esperando.</p></div>
     </div>
   </div>
 </section>
 
-<!-- POLICIES + FAQ -->
-<section id="faq">
+<!-- FAQ -->
+<section class="faq-sec" id="faq">
   <div class="wrap split">
-    <div class="reveal">
-      <span class="eyebrow">Antes de reservar</span>
-      <h2>Lo que debes saber</h2>
-      <ul class="policy">
-        <li><span class="k">15:00</span><div><strong>Check-in</strong><span>Llega a partir de las 3 de la tarde.</span></div></li>
-        <li><span class="k">12:00</span><div><strong>Check-out</strong><span>Disfruta el desayuno con calma y sal al mediodía.</span></div></li>
-        <li><span class="k">+$15</span><div><strong>Persona adicional</strong><span>Desde la tercera persona, por noche.</span></div></li>
-        <li><span class="k">✓</span><div><strong>Limpieza e IVA incluidos</strong><span>El precio que ves es el precio que pagas.</span></div></li>
-        <li><span class="k">!</span><div><strong>Reserva firme</strong><span>Las reservas no admiten cambios ni devoluciones. Confirma bien tu fecha antes de pagar.</span></div></li>
+    <div class="rv">
+      <span class="kicker">Antes de reservar</span>
+      <h2 style="margin-top:16px">Lo que debes <em>saber</em></h2>
+      <ul class="pol">
+        <li><span class="k">15:00</span><div><strong>Check-in</strong><span>Llega desde las 3 de la tarde</span></div></li>
+        <li><span class="k">12:00</span><div><strong>Check-out</strong><span>Desayuna con calma y sal al mediodía</span></div></li>
+        <li><span class="k">+$15</span><div><strong>Persona adicional</strong><span>Desde la tercera, por noche</span></div></li>
+        <li><span class="k">IVA</span><div><strong>Limpieza e IVA incluidos</strong><span>El precio publicado es el final</span></div></li>
+        <li><span class="k">—</span><div><strong>Reserva firme</strong><span>Sin cambios ni devoluciones</span></div></li>
       </ul>
     </div>
-    <div class="reveal">
-      <details open><summary>¿Dónde están ubicados?</summary><p>En el Valle de los Chillos, Quito, al pie del volcán Ilaló. Al confirmar tu reserva te enviamos la ubicación exacta por WhatsApp.</p></details>
-      <details><summary>¿Qué incluye el precio?</summary><p>La noche para dos personas, el desayuno, el jacuzzi privado, el WiFi, la limpieza y el IVA. El Domo incluye además zona BBQ y parqueadero; la Triangular, cocina equipada y refrigeradora.</p></details>
-      <details><summary>¿Cuál es la diferencia entre el Domo y la Triangular?</summary><p>El Domo tiene dos camas y zona BBQ, ideal para una escapada al aire libre. La Triangular tiene cama, sofá, cocina equipada y vista panorámica: es ideal para aniversarios y estadías de más de una noche.</p></details>
-      <details><summary>¿Puedo ir con más de dos personas?</summary><p>Sí. Desde la tercera persona se suman $15 por persona por noche. Escríbenos y te confirmamos la capacidad de cada alojamiento.</p></details>
-      <details><summary>¿Puedo organizar una sorpresa?</summary><p>Claro. Ofrecemos decoración especial y pilates en pareja bajo reserva. Cuéntanos la ocasión y lo preparamos antes de que llegues.</p></details>
-      <details><summary>¿Puedo cambiar la fecha de mi reserva?</summary><p>No. Las reservas no admiten cambios ni devoluciones, así que te recomendamos confirmar bien la fecha antes de pagar. Te respondemos cualquier duda antes de que pagues.</p></details>
+    <div class="rv">
+      <details open><summary>¿Dónde están ubicados?</summary><p>En el Valle de los Chillos, al pie del volcán Ilaló, a unos 30 minutos de Quito. Al confirmar tu reserva te enviamos la ubicación exacta.</p></details>
+      <details><summary>¿Qué incluye el precio?</summary><p>La noche para dos personas, el desayuno, el jacuzzi privado, el WiFi, la limpieza y el IVA. El Domo suma zona BBQ y parqueadero; la Triangular, cocina equipada, refrigeradora y vista panorámica.</p></details>
+      <details><summary>¿Domo o Triangular?</summary><p>El Domo es ideal para una noche de parrilla y estrellas, y tiene dos camas. La Triangular es la opción para celebrar o quedarse varias noches: tiene cocina, sofá y vista panorámica.</p></details>
+      <details><summary>¿Podemos ir más de dos personas?</summary><p>Sí. Desde la tercera persona se suman $15 por persona por noche. Escríbenos para confirmar la capacidad de cada refugio.</p></details>
+      <details><summary>¿Puedo preparar una sorpresa?</summary><p>Claro. La decoración especial y el pilates en pareja se agregan bajo reserva. Cuéntanos la ocasión y lo dejamos listo antes de que lleguen.</p></details>
+      <details><summary>¿Puedo cambiar mi fecha?</summary><p>No. Las reservas no admiten cambios ni devoluciones, así que confirma bien tu fecha. Resolvemos todas tus dudas antes de que pagues.</p></details>
     </div>
   </div>
 </section>
 
-<!-- FINAL CTA -->
+<!-- FINAL -->
 <section class="final">
-  <div class="wrap">
-    <h2>Las fechas de fin de semana se llenan primero</h2>
-    <p>Dinos qué fecha tienes en mente y te confirmamos la disponibilidad hoy mismo.</p>
-    <a href="#" class="btn btn-primary js-wa" data-src="final" data-msg="Hola Tampu Ilaló 💚 Quiero reservar una escapada. ¿Qué fechas tienen disponibles?">
-      <svg><use href="#i-wa"/></svg> Reservar mi fecha
-    </a>
+  <div class="wrap rv">
+    <span class="kicker">Tu pausa te espera</span>
+    <h2>Los fines de semana <em>se llenan primero</em></h2>
+    <p>Cuéntanos qué fecha tienes en mente y te confirmamos la disponibilidad hoy mismo.</p>
+    <a href="#" class="btn btn-light js-wa" data-src="final" data-msg="Hola Tampu 🌿 Quiero reservar una escapada. ¿Qué fechas tienen disponibles?"><svg><use href="#wa"/></svg>Reservar mi fecha</a>
   </div>
-  <svg class="mtn" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 L240 40 L420 90 L720 0 L960 70 L1180 30 L1440 100 L1440 120Z" fill="#1F3B2D"/></svg>
 </section>
 
 <footer>
   <div class="wrap">
-    <div><strong style="color:#fff;font-family:var(--serif)">Tampu Ilaló Glamping</strong><br>Valle de los Chillos · Quito, Ecuador</div>
-    <div><a href="https://www.instagram.com/tampu.ilalo.glamping/" target="_blank" rel="noopener">@tampu.ilalo.glamping</a> · <a href="#" class="js-wa" data-src="footer" data-msg="Hola Tampu Ilaló 💚">WhatsApp</a></div>
+    <div class="cols">
+      <div>
+        <a href="#top" class="logo"><b>TAMPU</b><small>Glamping</small></a>
+        <p style="margin-top:20px;max-width:280px">Glamping con jacuzzi privado en el Valle de los Chillos, a 30 minutos de Quito.</p>
+      </div>
+      <div><h4>Reservas</h4><p><a href="#" class="js-wa" data-src="footer" data-msg="Hola Tampu 🌿">WhatsApp 098 455 1095</a></p><p>Check-in 15:00 · Check-out 12:00</p></div>
+      <div><h4>Síguenos</h4><p><a href="https://www.instagram.com/tampu.ilalo.glamping/" target="_blank" rel="noopener">Instagram · @tampu.ilalo.glamping</a></p><p>Mira las reseñas de nuestros huéspedes en las historias destacadas</p></div>
+    </div>
+    <div class="copy">© <span id="yr"></span> Tampu Ilaló Glamping · Valle de los Chillos, Ecuador</div>
   </div>
 </footer>
 
-<!-- Mobile sticky bar -->
-<div class="mbar">
-  <div class="p">Domo o Triangular con jacuzzi<b>Desde $75 / noche</b></div>
-  <a href="#" class="btn btn-wa js-wa" data-src="sticky" data-msg="Hola Tampu Ilaló 💚 Quiero consultar disponibilidad.">
-    <svg><use href="#i-wa"/></svg> Reservar
-  </a>
+<div class="mbar" id="mbar">
+  <div class="p"><span>Desde · noche para dos</span><b>$75</b></div>
+  <a href="#" class="btn btn-wa js-wa" data-src="sticky" data-msg="Hola Tampu 🌿 Quiero consultar disponibilidad."><svg><use href="#wa"/></svg>Reservar</a>
 </div>
-<a href="#" class="fab js-wa" data-src="fab" data-msg="Hola Tampu Ilaló 💚 Quiero consultar disponibilidad." aria-label="WhatsApp"><svg style="color:#fff"><use href="#i-wa"/></svg></a>
+<a href="#" class="fab js-wa" data-src="fab" data-msg="Hola Tampu 🌿 Quiero consultar disponibilidad." aria-label="Escribir por WhatsApp"><svg><use href="#wa"/></svg></a>
 
 <script>
-/* ===== CONFIG ===== */
-const WHATSAPP_NUMBER = "593000000000"; // <-- REEMPLAZAR con el número real (sin + ni espacios)
-
+const WHATSAPP_NUMBER = "593984551095";
 const RATES = {
-  domo: {name:"Domo con jacuzzi",       emoji:"🛖", byDay:[85,75,75,85,85,110,140]}, // Dom..Sáb
-  tri:  {name:"Triangular con jacuzzi", emoji:"🏡", byDay:[85,75,75,85,85,125,169]}
+  domo:{name:"Domo con jacuzzi",       byDay:[85,75,75,85,85,110,140]},  // Dom..Sáb
+  tri: {name:"Triangular con jacuzzi", byDay:[85,75,75,85,85,125,169]}
 };
-const EXTRA_PERSON = 15;
-const DAYS = ["Dom","Lun","Mar","Mié","Jue","Vie","Sáb"];
-
-const waLink = msg => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
-
-function track(src, extra){
-  try{ window.dataLayer = window.dataLayer || []; window.dataLayer.push(Object.assign({event:"whatsapp_click", wa_source:src}, extra||{})); }catch(e){}
-  try{ if(typeof fbq==="function") fbq("track","Contact",Object.assign({content_name:src},extra||{})); }catch(e){}
-  try{ if(typeof gtag==="function") gtag("event","generate_lead",Object.assign({source:src},extra||{})); }catch(e){}
-}
-
-document.querySelectorAll(".js-wa").forEach(a=>{
-  a.href = waLink(a.dataset.msg || "Hola Tampu Ilaló 💚");
-  a.target = "_blank"; a.rel = "noopener";
-  a.addEventListener("click",()=>track(a.dataset.src));
-});
-
-/* ===== Calculator ===== */
+const EXTRA = 15, DAYS = ["Dom","Lun","Mar","Mié","Jue","Vie","Sáb"];
 const $ = id => document.getElementById(id);
 const fmt = n => "$" + n.toLocaleString("es-EC");
-let guests = 2;
+const wa = m => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(m)}`;
 
-(function initDate(){
-  const d = new Date(); d.setDate(d.getDate()+1);
-  const iso = d.toISOString().slice(0,10);
-  $("checkin").value = iso; $("checkin").min = new Date().toISOString().slice(0,10);
-})();
+function track(src, extra){
+  const d = Object.assign({wa_source:src}, extra||{});
+  try{ (window.dataLayer=window.dataLayer||[]).push(Object.assign({event:"whatsapp_click"},d)); }catch(e){}
+  try{ if(typeof fbq==="function") fbq("track","Contact",d); }catch(e){}
+  try{ if(typeof gtag==="function") gtag("event","generate_lead",d); }catch(e){}
+}
+document.querySelectorAll(".js-wa").forEach(a=>{
+  a.href = wa(a.dataset.msg||"Hola Tampu 🌿"); a.target="_blank"; a.rel="noopener";
+  a.addEventListener("click",()=>track(a.dataset.src));
+});
+document.querySelectorAll(".js-pick").forEach(a=>a.addEventListener("click",()=>{
+  $(a.dataset.unit==="tri"?"u-tri":"u-domo").checked = true; calc();
+}));
+
+/* Calculator */
+let guests = 2;
+const toISO = d => new Date(d.getTime()-d.getTimezoneOffset()*6e4).toISOString().slice(0,10);
+(()=>{ const t=new Date(), d=new Date(); d.setDate(d.getDate()+1); $("ci").value=toISO(d); $("ci").min=toISO(t); })();
 
 function calc(){
-  const unit = document.querySelector('input[name="unit"]:checked').value;
-  const r = RATES[unit];
-  const nights = +$("nights").value;
-  const val = $("checkin").value;
-  const start = val ? new Date(val+"T12:00:00") : new Date();
-  const extraP = Math.max(0, guests-2);
-  let total = 0, lines = "";
-
-  for(let i=0;i<nights;i++){
-    const d = new Date(start); d.setDate(start.getDate()+i);
-    const price = r.byDay[d.getDay()];
-    total += price;
-    lines += `<li><span>${DAYS[d.getDay()]} ${d.getDate()}/${d.getMonth()+1}</span><span>${fmt(price)}</span></li>`;
+  const u = document.querySelector('input[name="unit"]:checked').value, r = RATES[u];
+  const n = +$("nn").value;
+  const s = $("ci").value ? new Date($("ci").value+"T12:00:00") : new Date();
+  const xp = Math.max(0,guests-2);
+  let tot=0, li="";
+  for(let i=0;i<n;i++){
+    const d=new Date(s); d.setDate(s.getDate()+i);
+    const p=r.byDay[d.getDay()]; tot+=p;
+    li+=`<li><span>${DAYS[d.getDay()]} ${d.getDate()}/${d.getMonth()+1}</span><span>${fmt(p)}</span></li>`;
   }
-  if(extraP){
-    const ex = extraP*EXTRA_PERSON*nights; total += ex;
-    lines += `<li><span>${extraP} persona${extraP>1?"s":""} adicional${extraP>1?"es":""} × ${nights} noche${nights>1?"s":""}</span><span>${fmt(ex)}</span></li>`;
-  }
-  const extras = ["x-deco","x-pil"].filter(id=>$(id).checked).map(id=>$(id).value);
-  extras.forEach(e=> lines += `<li><span>${e}</span><span>A cotizar</span></li>`);
-
-  $("outTitle").textContent = `${r.emoji} ${r.name}`;
-  $("breakdown").innerHTML = lines;
-  $("total").textContent = fmt(total);
-
-  const dateTxt = start.toLocaleDateString("es-EC",{weekday:"long",day:"numeric",month:"long"});
-  const msg =
-`Hola Tampu Ilaló 💚 Quiero reservar:
-${r.emoji} ${r.name}
-📆 Llegada: ${dateTxt} (${nights} noche${nights>1?"s":""})
-👥 ${guests} personas${extras.length?`\n💕 Extras: ${extras.join(", ")}`:""}
-💵 Total estimado en la web: ${fmt(total)}
+  if(xp){ const e=xp*EXTRA*n; tot+=e; li+=`<li><span>${xp} huésped${xp>1?"es":""} adicional${xp>1?"es":""} × ${n}</span><span>${fmt(e)}</span></li>`; }
+  const ex=["x1","x2"].filter(i=>$(i).checked).map(i=>$(i).value);
+  ex.forEach(e=>li+=`<li><span>${e}</span><span>A cotizar</span></li>`);
+  $("ot").textContent=r.name; $("bd").innerHTML=li; $("tt").textContent=fmt(tot);
+  const dt=s.toLocaleDateString("es-EC",{weekday:"long",day:"numeric",month:"long"});
+  const msg=`Hola Tampu 🌿 Quiero reservar:
+• ${r.name}
+• Llegada: ${dt} (${n} noche${n>1?"s":""})
+• ${guests} persona${guests>1?"s":""}${ex.length?`\n• Extras: ${ex.join(", ")}`:""}
+• Total estimado en la web: ${fmt(tot)}
 ¿Tienen disponibilidad?`;
-  const btn = $("calcWa");
-  btn.href = waLink(msg); btn.target="_blank"; btn.rel="noopener";
-  btn.dataset.value = total; btn.dataset.unit = unit;
+  const b=$("cw"); b.href=wa(msg); b.target="_blank"; b.rel="noopener"; b.dataset.v=tot; b.dataset.u=u;
 }
-
-$("calcWa").addEventListener("click",e=>{
-  track("calculator",{value:+e.currentTarget.dataset.value,currency:"USD",unit:e.currentTarget.dataset.unit});
-});
-$("gMinus").onclick=()=>{guests=Math.max(1,guests-1);$("guests").textContent=guests;calc();};
-$("gPlus").onclick=()=>{guests=Math.min(6,guests+1);$("guests").textContent=guests;calc();};
-$("calcForm").addEventListener("input",calc);
-$("calcForm").addEventListener("change",calc);
+$("cw").addEventListener("click",e=>track("calculator",{value:+e.currentTarget.dataset.v,currency:"USD",unit:e.currentTarget.dataset.u}));
+$("gm").onclick=()=>{guests=Math.max(1,guests-1);$("gg").textContent=guests;calc();};
+$("gp").onclick=()=>{guests=Math.min(6,guests+1);$("gg").textContent=guests;calc();};
+$("cf").addEventListener("input",calc); $("cf").addEventListener("change",calc);
 calc();
 
-/* ===== Nav + reveal ===== */
-const nav = $("nav");
-const onScroll=()=>nav.classList.toggle("scrolled",scrollY>40);
-addEventListener("scroll",onScroll,{passive:true}); onScroll();
-
+/* UI */
+$("yr").textContent=new Date().getFullYear();
+const nav=$("nav"), mbar=$("mbar");
+const sc=()=>{ nav.classList.toggle("scrolled",scrollY>30); mbar.classList.toggle("show",scrollY>innerHeight*.6); };
+addEventListener("scroll",sc,{passive:true}); sc();
 if("IntersectionObserver" in window){
-  const io = new IntersectionObserver(es=>es.forEach(e=>{ if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target);} }),{threshold:.12});
-  document.querySelectorAll(".reveal").forEach(el=>io.observe(el));
-}else{ document.querySelectorAll(".reveal").forEach(el=>el.classList.add("in")); }
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target);}}),{threshold:.12,rootMargin:"0px 0px -40px 0px"});
+  document.querySelectorAll(".rv").forEach(el=>io.observe(el));
+} else document.querySelectorAll(".rv").forEach(el=>el.classList.add("in"));
 </script>
 </body>
 </html>
